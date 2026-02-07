@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+   <!-- Navbar -->
+<nav class="navbar">
+ <div class="logo">
+    <a href="index.html">MyPortfolio</a>
+  </div>
+  <div class="hamburger" id="hamburger">
+    &#9776; <!-- Hamburger icon -->
+  </div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+    <li><a href="#projects-section">Projects</a></li>
+    <li><a href="#contact-section">Contact</a></li>
+  </ul>
+</nav>
+
+
+    <!-- Hero Section -->
+ <section class="hero">
+  <div class="hero-container">
+
+    <div class="hero-text">
+      <span class="intro">👋 Hello, I’m</span>
+      <h1>
+       Niharika <span>Vardhanapu</span>
+      </h1>
+
+      <p>
+        A passionate <strong>Frontend Developer</strong> crafting modern,
+        responsive and interactive web experiences using
+        <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> & <span>React</span>.
+      </p>
+<div class="hero-buttons" style="position: relative;">
+  <a
+    href="assets/MyResume.pdf"
+    download="Niharik-frntend-Resume"
+    class="btn primary"
+  >
+    Download Resume
+  </a>
+
+  <a href="#" class="btn outline" id="hireMeBtn">Hire Me</a>
+
+  <!-- Email text + copy + close -->
+  <div id="emailTextContainer" class="email-text-container">
+    <span id="emailText">niharikavardhanapu12@gmail.com</span>
+    <button id="copyEmailBtn">Copy</button>
+    <span id="closeEmailBtn" class="close-email">&times;</span>
+  </div>
+</div>
+
+      <div class="hero-stats">
+        <div>
+          <h3 class="count" data-target="10">0</h3>
+          <span>Design Projects</span>
+        </div>
+        <div>
+          <h3 class="count" data-target="15">0</h3>
+          <span>Dev Projects</span>
+        </div>
+        <div>
+          <h3 class="count" data-target="2">0</h3>
+          <span>Years Experience</span>
+        </div>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/niharika-vardhan1002" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Nncodingworld" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.behance.net/Nndesignworld" target="_blank"><i class="fab fa-behance"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="blob"></div>
+      <img src="assets/heroimg1.png" alt="Profile" />
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- about me -->
+    <section id="about-section" class="about-section">
+      <div class="about-header">
+        <span>Get To Know</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-content">
+        <!-- Left Side (30%) -->
+ <div class="about-left">
+  <!-- Background circles -->
+  <div class="big-circle"></div>
+  <div class="small-circle small1"></div>
+  <div class="small-circle small2"></div>
+
+  <!-- Main image -->
+  <img src="assets/aboutimg1.png" alt="About Image" />
+</div>
+
+
+        <!-- Right Side (70%) -->
+        <div class="about-right">
+          <div class="about-boxes">
+            <!-- Box 1 -->
+            <div class="about-box">
+              <img src="assets/exp.webp" alt="Experience" />
+              <h3>2+ Years</h3>
+              <p>Frontend Developer</p>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="about-box">
+              <img src="assets/eduimg.png" alt="Education" />
+              <h3>Education</h3>
+              <p>B.sc Computer Science</p>
+            </div>
+          </div>
+
+          <p class="about-text">
+            I’m a Frontend Developer and UI Designer skilled in React.js, JavaScript, 
+            HTML, CSS, and Bootstrap. I have hands-on experience building responsive, user-friendly 
+            websites and designing interfaces using Figma. I’ve worked as a Frontend Developer Intern 
+            at Wire Matrix Solutions, where I contributed to real-world 
+            projects and strengthened my development and design skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section  id="skills-section" class="skills-section">
+      <h2>Experience & Skills</h2>
+      <span>Explore Me</span>
+
+      <div class="skills-container">
+        <!-- Skills Column -->
+        <div class="skills-column">
+          <h3>Technical Skills</h3>
+          <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Bootstrap</li>
+            <li>Tailwind CSS</li>
+            <li>Git & GitHub</li>
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Canva</li>
+            <li>Framer</li>
+            <li>WordPress</li>
+             <li>Node.js</li>
+              <li>DataStructures</li>
+          </ul>
+
+          <h3>Soft Skills & Time Management</h3>
+          <ul class="skills-list">
+            <li>Time Management</li>
+            <li>Stress Management</li>
+            <li>Problem Solving</li>
+            <li>Adaptability</li>
+            <li>Team Collaboration</li>
+          </ul>
+        </div>
+
+        <!-- Certifications Column -->
+        <div class="certifications-column">
+          <h3>Certifications</h3>
+          <div class="certification">
+            <h4>UI/UX Designer and Developer – Odigos (Dec 2024)</h4>
+            <p>
+              Completed a comprehensive course covering user-centered design
+              principles, React, HTML, CSS, JS, and UI/UX best practices.
+            </p>
+          </div>
+
+          <div class="certification">
+            <h4>Web Development – Internshala (Apr 2025)</h4>
+            <p>
+              Hands-on experience in HTML, CSS, JavaScript, and responsive web
+              design through structured development coursework.
+            </p>
+          </div>
+
+          <div class="certification">
+            <h4>Git and GitHub – Udemy (Apr 2023)</h4>
+            <p>
+              Learned version control fundamentals including branching, merging,
+              and collaborative workflows using Git and GitHub.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- projects -->
+    <section id="projects-section" class="projects-section">
+  <h2>My Projects</h2>
+  <span>Explore My Work</span>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="development">
+      Development Projects
+    </button>
+    <button class="tab-btn" data-tab="designing">
+      Designing Projects
+    </button>
+  </div>
+
+  <!-- See More Links -->
+  <div class="see-more-floating" id="see-more-development">
+    <a href="devprjcts.html" target="_blank" class="see-more-link">
+      See More 
+    </a>
+  </div>
+
+  <div class="see-more-floating" id="see-more-designing" style="display: none;">
+    <a href="Desgnprjcts.html" target="_blank" class="see-more-link">
+      See More
+    </a>
+  </div>
+
+  <!-- Development Projects Grid -->
+  <div class="project-grid" id="development">
+    <div class="project-card">
+      <img src="assets/kam-on coverr.png" alt="Development Project 1" />
+      <div class="project-content">
+        <h4>camera Product Website</h4>
+        <p>This project features a responsive landing page designed for a camera company, highlighting newly arrived camera products and their key features.</p>
+        <div class="tools">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <a href="https://nncodingworld.github.io/CameraLandingPage1/" target="_blank">View Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/interior.png" alt="Development Project 2" />
+      <div class="project-content">
+        <h4>Interior Design website</h4>
+        <p>This website was created to showcase our interior design services, highlighting how we can transform spaces with creativity and precision.
+        <div class="tools">
+          <span>React</span>
+        </div>
+        <a href="https://nncodingworld.github.io/Website-Of-Interior-Designs/" target="_blank">View Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/book (2).png" alt="Development Project 3" />
+      <div class="project-content">
+        <h4>Book Website</h4>
+        <p>This is a fully responsive, modern BookLibrary website built using React. It offers users a smooth and interactive interface to browse, search, and purchase books from a wide collection.</p>
+        <div class="tools">
+          <span>React</span>
+            <span>React Hooks</span>
+              <span>Context Api</span>
+                <span>Global State Management</span>
+        </div>
+        <a href="https://nncodingworld.github.io/BookLibraryReact" target="_blank">View Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Designing Projects Grid -->
+  <div class="project-grid" id="designing" style="display: none;">
+    <div class="project-card">
+      <img src="assets/website1.png" alt="Design Project 1" />
+      <div class="project-content">
+        <h4>Complete Educational website</h4>
+        <p>A modern, responsive E Learning educational Websites with all pages like Courses , payment , Instructor details.</p>
+        <div class="tools">
+          <span>Figma</span>
+          <span>Balsmiq</span>
+        </div>
+        <a href="https://www.behance.net/gallery/222314601/Online-Educational-PlatformODIGOS" target="_blank">View Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/mobileapp.png" alt="Design Project 2" />
+      <div class="project-content">
+        <h4>Smart Home MobileApp</h4>
+        <p>One app. Every device. Turn lights on, adjust temperature, check security, and automate your home — all from your phone..</p>
+        <div class="tools">
+          <span>Figma</span>
+          <span>Balsmiq</span>
+           <span>Followed User Design principles</span>
+        </div>
+        <a href="https://www.behance.net/gallery/222312443/SmartHomeAppODIGOS" target="_blank">View Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/mobileapp2.png" alt="Design Project 3" />
+      <div class="project-content">
+        <h4>Mental Well Being Mobile App</h4>
+        <p>A mental well-being app designed to help you manage stress, improve focus, and build healthier habits through guided exercises, reflections, and mindful routines.</p>
+        <div class="tools">
+          <span>Figma</span>
+          <span>Balsmiq</span>
+           <span>Followed User Design principles</span>
+        </div>
+        <a href="https://www.behance.net/gallery/228399299/Mental-Well-Being-App" target="_blank">View Demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- contact -->
+    <section id="contact-section" class="contact-section">
+  <h2>Contact Me</h2>
+  <span>Let's Connect</span>
+
+  <div class="contact-container">
+    <form class="contact-form" action="mailto:niharikavardhanapu12@gmail.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <div class="form-group">
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+   <div class="info-item">
+  <h4>Email</h4>
+
+  <p class="email-text">
+       niharikavardhanapu12@gmail.com
+  </p>
+
+  <button type="button" onclick="copyEmail()" class="copy-btn">
+    Copy Email
+  </button>
+</div>
+
+
+
+
+
+      <div class="info-item">
+        <h4>Location</h4>
+        <p>AndhraPradesh , India</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- JS -->
+<script>
+const tabButtons = document.querySelectorAll('.tab-btn');
+const devLink = document.getElementById('see-more-development');
+const designLink = document.getElementById('see-more-designing');
+
+tabButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const tab = btn.dataset.tab;
+
+        // Switch active class
+        tabButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        if(tab === 'development'){
+            document.getElementById('development').style.display = 'grid';
+            document.getElementById('designing').style.display = 'none';
+            devLink.style.display = 'block';
+            designLink.style.display = 'none';
+        } else {
+            document.getElementById('development').style.display = 'none';
+            document.getElementById('designing').style.display = 'grid';
+            devLink.style.display = 'none';
+            designLink.style.display = 'block';
+        }
+    });
+});
+</script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
